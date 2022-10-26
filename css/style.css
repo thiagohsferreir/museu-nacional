@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#container {
+    background: url(../img/fundo.png) #F4F2EC repeat-x top;
+    height: 1000px;
+    min-width: 1300px;
+}
+
+#topo {
+
+    background: url(../img/logo.png) no-repeat center left;
+    display: flex;
+    height: 90px;
+    justify-content: flex-end;
+    width: 1080px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.secoes a:hover {
+    color: #357115;
+}
+
+#topo ul {
+    display: flex;
+    margin-right: 50px;
+    width: 50%;
+    font-size: .8em;
+    margin-top: 40px;
+    list-style-type: none;
+}
+
+#topo ul li a {
+    margin: 0 0 0 15px;
+    color: #A86F14;
+}
+
+#topo ul li a:hover {
+    margin: 0 0 0 15px;
+    color: #357115;
+    text-decoration: underline;
+}
+
+main {
+    width: 1080px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.iframe,
+.lateral {
+    padding: 20px;
+    width: 300px;
+}
+
+.iframe h4,
+.lateral h4 {
+    color: #357115;
+    margin-bottom: 20px;
+    font-size: .8em;
+}
+
+.secoes p {
+    font-size: .8em;
+    line-height: 20px;
+}
+
+.secoes a {
+    font-size: .8em;
+    color: #A86F14;
+}
+
+.secoes ul {
+    padding-left: 50px;
+}
+
+.secoes {
+    margin-top: 30px;
+}
+
+
+.visita {
+    background: #CDC8B1;
+    padding: 30px;
+    width: 290px;
+    margin-left: -30px;
+    height: 80px;
+}
+
+.visita h4 {
+    color: #86521A;
+    margin-bottom: 5px;
+    font-size: .8em;
+}
+
+iframe {
+    padding-left: 10px;
+}
+
+.visita label {
+    font-size: .8em;
+}
+
+.visita input#data {
+    width: 100px;
+}
+
+.visita input#pessoas {
+    width: 30px;
+}
+
+.visita a {
+    color: white;
+}
+
+.botao {
+    padding: 10px 30px;
+    background-color: #9B9271;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.fotos {
+    background: #EBE7DD;
+    width: 310px;
+    margin-left: -30px;
+    padding: 20px;
+}
+
+.fotos h4 {
+    color: #86521A;
+}
+
+.fotinhas {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    margin: -10px auto;
+}
+
+.fotos section {
+    background: url(../img/fundo-foto.png) no-repeat;
+    width: 107px;
+    height: 133px;
+    margin-right: -20px;
+    margin-left: 20px;
+    padding: 19px;
+
+}
+
+footer {
+    background: url(../img/fundo-rodape.png) #F4F2EC no-repeat top;
+    justify-content: center;
+    display: flex;
+    padding: 15px;
+}
+
+footer p {
+    font-size: .8em;
+    text-align: center;
+}
+
+footer ul {
+    display: flex;
+    list-style-type: none;
+}
+
+footer li {
+    padding: 10px;
+    font-size: .7em;
+}
+
+footer a {
+    color: #A86F14;
+}
+
+footer a:hover {
+    color: #357115;
+}
